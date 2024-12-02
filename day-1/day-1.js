@@ -16,7 +16,7 @@ async function main() {
 async function readFileContent() {
   try {
     const data = await readFile(inputFilePath, 'utf8');
-    return data;
+     data;
   } catch (err) {
     console.error('Error reading the file:', err);
   }
